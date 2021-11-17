@@ -1,0 +1,104 @@
+@import "./base/import";
+* {
+    margin: 0;
+    padding: 0;
+}
+button {
+    @extend %button;
+    a { 
+        text-decoration: none;
+        color: $color-sun;
+    }
+}
+h5 {
+    background-color: $color-lila; 
+    color: $color-sunset; 
+    font-size: 20px; 
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+body {
+    background-color: $color-sunset; 
+    font-family: nht ($tipografias , 2);
+    color: $color-lila;
+   header {
+       background:url(/IMAGENES/fondoheader.jpg) no-repeat center; 
+       background-size:cover;
+       padding-top: 325px;
+       h1 {
+           color:$color-lila; 
+           font-size: 50px; 
+           font-family: nth ($tipografias, 3);
+           padding-left: 15px;
+           a {
+               text-decoration: none;
+               color: $color-pink;
+           }
+       }
+       .itemfixed {
+           position: fixed;
+           margin-left: 88%;
+          
+       }
+       .MainMenuContainer {
+           div {
+               .MainMenu {
+                   font-size: 30px;
+                   font-family: nth ($tipografias, 1);
+                   background-color: $color-sun;
+                   padding: 30px;
+                   display: flex;
+                   justify-content: space-around;
+                   list-style: none;
+                   .MenuItem {
+                       a {
+                           list-style: none;
+                           text-decoration: none;
+                           color: $color-lila;
+                       }
+   
+                   }
+               }
+           }
+       }
+   }
+}
+.audio { 
+    background-image: linear-gradient(to bottom,$color-sunset , $color-sun);
+    padding: 50px;
+    audio {
+        source {
+        }
+    }
+}
+footer {
+    background-color: $color-lila; 
+    padding-left: 50px; 
+    padding-top: 50px;
+    .MenuFooter {
+        ul {
+            li {
+                a {
+                    list-style: none;
+                    text-decoration: none;
+                    color: $color-pink;
+                }
+            }
+        }
+    }
+}
+.CV {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.logos {
+    padding-left: 75%;
+    padding-bottom: 50px;
+    .IconosLogos {
+        width: 50px;
+        height: auto;
+        padding: 5px;
+    }
+}

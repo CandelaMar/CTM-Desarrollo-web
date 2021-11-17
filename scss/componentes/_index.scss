@@ -1,0 +1,18 @@
+.main-index {
+    .cuerpo-index {
+        h5 {
+        }
+        .img-home {
+            display: flex;
+            justify-content: center;
+            transition: all 2s;
+            &:hover {
+                padding: 50px;
+            }
+            img {
+                width: 80%;
+                max-width: 900px;
+            }
+        }
+    }
+}

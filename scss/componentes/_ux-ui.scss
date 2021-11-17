@@ -1,0 +1,14 @@
+@import "../base/extends";
+.MainUXUI {
+    .GridContainer {
+        @extend %gridcontainer;
+        .GridImg {
+            width: 400px;
+            object-fit: cover;
+        }
+        .Large {
+            height: 700px;
+            padding-bottom: 150px;
+        }
+    }
+}

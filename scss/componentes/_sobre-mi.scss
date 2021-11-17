@@ -1,0 +1,36 @@
+@import "../base/variables";
+.MainSM {
+    div {
+        .Presentacion { 
+            color: $color-sun;
+            background-color: $color-pink;
+            font-size: 30px;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+        }
+        .Texto {
+            padding: 50px;
+        }
+    }
+    .Estudios {
+        h5 {
+        }
+        div {
+            background-color: $color-pink;
+            padding: 20px;
+            table {
+                width: 100%;
+                border: 2px solid $color-sun;
+                border-spacing: 0;
+                color: $color-sun;
+                tr {
+                    td {
+                        border: 1px solid $color-sun;
+                        padding: 2px;
+                    }
+                }
+            }
+        }
+    }
+}
