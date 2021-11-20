@@ -1,7 +1,6 @@
-@import "../base/extends";
 .MainDG {
     .GridContainer {
-    
+        @extend %gridcontainer;
         .GridImg {
             width: 400px;
             object-fit: cover;

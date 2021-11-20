@@ -19,6 +19,18 @@ body button {
   padding: 20px;
 }
 
+.MainDG .GridContainer, .MainUXUI .GridContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 body button {
   background-color: #6fc6ca;
   color: #f2eeae;
@@ -38,6 +50,18 @@ body button {
   text-align: center;
   text-transform: uppercase;
   padding: 20px;
+}
+
+.MainDG .GridContainer, .MainUXUI .GridContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body {
@@ -220,27 +244,6 @@ header .Container .MainMenuContainer div a {
   padding: 5px 15px 10px 15px;
 }
 
-body button {
-  background-color: #6fc6ca;
-  color: #f2eeae;
-  font-size: 20px;
-  border-radius: 50px;
-  border: none;
-  padding: 5px 10px;
-  -webkit-box-shadow: 2px 2px 5px grey;
-          box-shadow: 2px 2px 5px grey;
-}
-
-.MainSM div h5, .MainSM .Estudios h5, .main-index .cuerpo-index h5, .main-index h5 {
-  background-color: #bb95b7;
-  color: #fcc1ae;
-  font-size: 20px;
-  display: block;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 20px;
-}
-
 .MainDG .GridContainer .GridImg {
   width: 400px;
   -o-object-fit: cover;
@@ -253,27 +256,6 @@ body button {
 
 .FE img {
   width: 100%;
-}
-
-body button {
-  background-color: #6fc6ca;
-  color: #f2eeae;
-  font-size: 20px;
-  border-radius: 50px;
-  border: none;
-  padding: 5px 10px;
-  -webkit-box-shadow: 2px 2px 5px grey;
-          box-shadow: 2px 2px 5px grey;
-}
-
-.MainSM div h5, .MainSM .Estudios h5, .main-index .cuerpo-index h5, .main-index h5 {
-  background-color: #bb95b7;
-  color: #fcc1ae;
-  font-size: 20px;
-  display: block;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 20px;
 }
 
 .MainUXUI .GridContainer .GridImg {
@@ -295,6 +277,8 @@ footer {
 
 footer .MenuFooter ul {
   font-family: "Josefin Sans";
+  font-size: 24px;
+  line-height: 34px;
 }
 
 footer .MenuFooter ul li a {
