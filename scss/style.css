@@ -1,4 +1,4 @@
-button {
+body button {
   background-color: #6fc6ca;
   color: #f2eeae;
   font-size: 20px;
@@ -9,6 +9,95 @@ button {
           box-shadow: 2px 2px 5px grey;
 }
 
+.MainSM div h5, .MainSM .Estudios h5, .main-index .cuerpo-index h5, .main-index h5 {
+  background-color: #bb95b7;
+  color: #fcc1ae;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+body button {
+  background-color: #6fc6ca;
+  color: #f2eeae;
+  font-size: 20px;
+  border-radius: 50px;
+  border: none;
+  padding: 5px 10px;
+  -webkit-box-shadow: 2px 2px 5px grey;
+          box-shadow: 2px 2px 5px grey;
+}
+
+.MainSM div h5, .MainSM .Estudios h5, .main-index .cuerpo-index h5, .main-index h5 {
+  background-color: #bb95b7;
+  color: #fcc1ae;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+body {
+  background-color: #fcc1ae;
+  font-family: "Vidaloka";
+  color: #bb95b7;
+}
+
+body .audio {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fcc1ae), to(#f2eeae));
+  background-image: linear-gradient(to bottom, #fcc1ae, #f2eeae);
+  padding: 50px;
+}
+
+header {
+  background: url(../../IMAGENES/fondoheader.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 325px;
+}
+
+header .Container h1 {
+  color: #e4a4b0;
+  font-size: 50px;
+  font-family: "Pattaya";
+  padding-left: 15px;
+}
+
+header .Container h1 a {
+  text-decoration: none;
+  color: #e4a4b0;
+}
+
+header .Container .itemfixed {
+  position: fixed;
+  margin-left: 88%;
+}
+
+header .Container .itemfixed a {
+  text-decoration: none;
+  color: #f2eeae;
+}
+
+header .Container .MainMenuContainer div .MainMenu {
+  font-size: 30px;
+  font-family: "Josefin Sans";
+  background-color: #f2eeae;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+header .Container .MainMenuContainer div a {
+  list-style: none;
+  text-decoration: none;
+  color: #bb95b7;
+}
 
 .MainSM div .Presentacion {
   color: #f2eeae;
@@ -27,19 +116,19 @@ button {
   padding: 50px;
 }
 
-.Estudios div {
+.MainSM .Estudios div {
   background-color: #e4a4b0;
   padding: 20px;
 }
 
-.Estudios div table {
+.MainSM .Estudios div table {
   width: 100%;
   border: 2px solid #f2eeae;
   border-spacing: 0;
   color: #f2eeae;
 }
 
-.Estudios div table tr td {
+.MainSM .Estudios div table tr td {
   border: 1px solid #f2eeae;
   padding: 2px;
 }
@@ -64,17 +153,21 @@ button {
   max-width: 900px;
 }
 
+.main-index h5 .container .row .col-6 .offset-3 .carouselExampleSlidesOnly .carousel-inner .carousel-item .active {
+  height: 500px;
+}
+
 .main-contactate .contactate div h5 a {
   color: #f2eeae;
 }
 
-.input {
+.main-contactate .input {
   padding-top: 20px;
   padding-left: 50px;
   padding-bottom: 20px;
 }
 
-.input .email {
+.main-contactate .input .email {
   border-radius: 4px;
   border: solid 1px #e4a4b0;
   width: 200px;
@@ -82,12 +175,12 @@ button {
   padding-left: 10px;
 }
 
-.region {
+.main-contactate .region {
   padding-left: 50px;
   padding-bottom: 20px;
 }
 
-.region .option {
+.main-contactate .region .option {
   border-radius: 4px;
   border: solid 1px #e4a4b0;
   width: 100px;
@@ -95,12 +188,12 @@ button {
   padding-left: 10px;
 }
 
-.comentarios-box {
+.main-contactate .comentarios-box {
   padding-left: 50px;
   padding-bottom: 20px;
 }
 
-.comentarios-box .comentarios {
+.main-contactate .comentarios-box .comentarios {
   resize: none;
   border-radius: 4px;
   border: solid 1px #e4a4b0;
@@ -110,24 +203,24 @@ button {
   padding-top: 10px;
 }
 
-.signup {
+.main-contactate .signup {
   margin-left: 50px;
   margin-bottom: 30px;
 }
 
-.signup .newsletter {
+.main-contactate .signup .newsletter {
   margin-bottom: 20px;
 }
 
-.signup .checkbox {
+.main-contactate .signup .checkbox {
   margin-left: 10px;
 }
 
-.signup .sup {
+.main-contactate .signup .sup {
   padding: 5px 15px 10px 15px;
 }
 
-button {
+body button {
   background-color: #6fc6ca;
   color: #f2eeae;
   font-size: 20px;
@@ -138,6 +231,15 @@ button {
           box-shadow: 2px 2px 5px grey;
 }
 
+.MainSM div h5, .MainSM .Estudios h5, .main-index .cuerpo-index h5, .main-index h5 {
+  background-color: #bb95b7;
+  color: #fcc1ae;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
 
 .MainDG .GridContainer .GridImg {
   width: 400px;
@@ -153,7 +255,7 @@ button {
   width: 100%;
 }
 
-button {
+body button {
   background-color: #6fc6ca;
   color: #f2eeae;
   font-size: 20px;
@@ -162,6 +264,16 @@ button {
   padding: 5px 10px;
   -webkit-box-shadow: 2px 2px 5px grey;
           box-shadow: 2px 2px 5px grey;
+}
+
+.MainSM div h5, .MainSM .Estudios h5, .main-index .cuerpo-index h5, .main-index h5 {
+  background-color: #bb95b7;
+  color: #fcc1ae;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
 }
 
 .MainUXUI .GridContainer .GridImg {
@@ -175,84 +287,14 @@ button {
   padding-bottom: 150px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-button a {
-  text-decoration: none;
-  color: #f2eeae;
-}
-
-h5 {
-  background-color: #bb95b7;
-  color: #fcc1ae;
-  font-size: 20px;
-  display: block;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 20px;
-}
-
-body {
-  background-color: #fcc1ae;
-  font-family: nht "Josefin Sans", "Vidaloka", "Pattaya", 2;
-  color: #bb95b7;
-}
-
-body header {
-  background: url(/IMAGENES/fondoheader.jpg) no-repeat center;
-  background-size: cover;
-  padding-top: 325px;
-}
-
-body header h1 {
-  color: #bb95b7;
-  font-size: 50px;
-  font-family: nth "Josefin Sans", "Vidaloka", "Pattaya", 3;
-  padding-left: 15px;
-}
-
-body header h1 a {
-  text-decoration: none;
-  color: #e4a4b0;
-}
-
-body header .itemfixed {
-  position: fixed;
-  margin-left: 88%;
-}
-
-body header .MainMenuContainer div .MainMenu {
-  font-size: 30px;
-  font-family: nth "Josefin Sans", "Vidaloka", "Pattaya", 1;
-  background-color: #f2eeae;
-  padding: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  list-style: none;
-}
-
-body header .MainMenuContainer div .MainMenu .MenuItem a {
-  list-style: none;
-  text-decoration: none;
-  color: #bb95b7;
-}
-
-.audio {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fcc1ae), to(#f2eeae));
-  background-image: linear-gradient(to bottom, #fcc1ae, #f2eeae);
-  padding: 50px;
-}
-
 footer {
   background-color: #bb95b7;
   padding-left: 50px;
   padding-top: 50px;
+}
+
+footer .MenuFooter ul {
+  font-family: "Josefin Sans";
 }
 
 footer .MenuFooter ul li a {
@@ -261,19 +303,29 @@ footer .MenuFooter ul li a {
   color: #e4a4b0;
 }
 
-.CV {
+footer .CV {
   margin-top: 20px;
   padding-left: 10px;
 }
 
-.logos {
+footer .CV a {
+  text-decoration: none;
+  color: #f2eeae;
+}
+
+footer .logos {
   padding-left: 75%;
   padding-bottom: 50px;
 }
 
-.logos .IconosLogos {
+footer .logos .IconosLogos {
   width: 50px;
   height: auto;
   padding: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */

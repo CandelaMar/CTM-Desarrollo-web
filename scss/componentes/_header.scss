@@ -1,24 +1,44 @@
+@import "../base/listas";
 header {
+    background: url(../../IMAGENES/fondoheader.jpg) no-repeat center;
+    background-size:cover;
+    padding-top: 325px;
     .Container {
         h1 {
+            color:$color-pink; 
+            font-size: 50px; 
+            font-family: nth($tipografias, 3 );
+            padding-left: 15px;
             a {
-
+                text-decoration: none;
+                color: $color-pink;
             }
         }
         .itemfixed {
+            position: fixed;
+            margin-left: 88%;
             a {
-
+                text-decoration: none;
+                color: $color-sun;
             }
         }
         .MainMenuContainer {
             div {
                 .MainMenu {
-                    .MeuniItem {
-                        
-                    }
+                    font-size: 30px;
+                    font-family: nth($tipografias, 1);
+                    background-color: $color-sun;
+                    padding: 30px;
+                    display: flex;
+                    justify-content: space-around;
+                    list-style: none;
+                }
+                a {
+                    list-style: none;
+                    text-decoration: none;
+                    color: $color-lila;
                 }
             }
         }
     }
-}
 }

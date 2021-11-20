@@ -1,0 +1,13 @@
+@import "../base/extends";
+body {
+    background-color: $color-sunset; 
+    font-family: nth($tipografias, 2 );
+    color: $color-lila;
+    button {
+        @extend %button;
+    }
+    .audio {
+        background-image: linear-gradient(to bottom,$color-sunset , $color-sun);
+        padding: 50px;
+    }
+}

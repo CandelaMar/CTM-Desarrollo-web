@@ -1,23 +1,35 @@
+@import "../base/listas";
 footer {
+    background-color: $color-lila; 
+    padding-left: 50px; 
+    padding-top: 50px;
     .MenuFooter {
         ul {
+            font-family: nth($tipografias, 1);
             li {
                 a {
-
+                    list-style: none;
+                    text-decoration: none;
+                    color: $color-pink;
                 }
             }
         }
     }
     .CV {
+        margin-top: 20px;
+        padding-left: 10px;
         a {
-
+            text-decoration: none;
+            color: $color-sun;
         }
     }
     .logos {
-        a {
-            img {
-                
-            }
+        padding-left: 75%;
+        padding-bottom: 50px;
+        .IconosLogos {
+            width: 50px;
+            height: auto;
+            padding: 5px;
         }
     }
 }
