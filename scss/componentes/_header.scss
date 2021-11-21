@@ -13,6 +13,9 @@ header {
                 text-decoration: none;
                 color: $color-pink;
             }
+            @media only screen and (min-width: 280px) and (max-width: 799px) {
+                font-size: 40px;
+            }
         }
         .itemfixed {
             position: fixed;
@@ -20,6 +23,14 @@ header {
             a {
                 text-decoration: none;
                 color: $color-sun;
+                @media only screen and (min-width: 280px) and (max-width: 799px) {
+                    font-size: 13px;
+                }
+            }
+            @media only screen and (min-width: 280px) and (max-width: 799px) {
+                right: 10px;
+                top: 70%;
+                padding: 0px 10px 5px 10px; 
             }
         }
         .MainMenuContainer {
@@ -32,12 +43,22 @@ header {
                     display: flex;
                     justify-content: space-around;
                     list-style: none;
+                    a {
+                        list-style: none;
+                        text-decoration: none;
+                        color: $color-lila;
+                    }
+                    .MenuItem {
+                        @media only screen and (min-width: 280px) and (max-width: 799px){
+                            margin: 2px;
+                        }
+                    }
+                    @media only screen and (min-width: 280px) and (max-width: 799px) {
+                        flex-direction: column;
+                        font-size: 20px;
+                    }
                 }
-                a {
-                    list-style: none;
-                    text-decoration: none;
-                    color: $color-lila;
-                }
+
             }
         }
     }

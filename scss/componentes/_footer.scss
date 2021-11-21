@@ -13,6 +13,12 @@ footer {
                     list-style: none;
                     text-decoration: none;
                     color: $color-pink;
+                    @media only screen and (min-width: 280px) and (max-width: 799px) {
+                        font-size: 13px;
+                    }
+                    @media only screen and (min-width: 800px) and (max-width: 1300px) {
+                        font-size: 20px;
+                    }
                 }
             }
         }
@@ -23,15 +29,47 @@ footer {
         a {
             text-decoration: none;
             color: $color-sun;
+            @media only screen and (min-width: 280px) and (max-width: 799px) {
+                font-size: 13px;
+            }
+            @media only screen and (min-width: 800px) and (max-width: 1300px) {
+                font-size: 20px;
+            }
+        }
+        @media only screen and (min-width: 280px) and (max-width: 799px) {
+            right: 10px;
+            padding: 0px 10px 5px 10px;
+            margin-top: 10px;
+        }
+        @media only screen and (min-width: 800px) and (max-width: 1300px) {
+            right: 10px;
+            padding: 10px 20px 15px 20px;
+            margin-top: 20px;
         }
     }
     .logos {
         padding-left: 75%;
         padding-bottom: 50px;
+        @media only screen and (min-width: 280px) and (max-width: 799px) {
+            padding-left: 0%;
+            padding-bottom: 30px;
+        }
+        @media only screen and (min-width: 800px) and (max-width: 1300px) {
+            padding-left: 70%;
+        }
         .IconosLogos {
             width: 50px;
             height: auto;
             padding: 5px;
+            @media only screen and (min-width: 280px) and (max-width: 799px) {
+                width: 30px;
+                height: auto;
+                padding-top: 20px;
+            }
+            @media only screen and (min-width: 800px) and (max-width: 1300px) {
+                max-width: 50px;
+                height: auto;
+            }
         }
     }
 }

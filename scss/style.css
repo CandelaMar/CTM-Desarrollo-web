@@ -94,6 +94,12 @@ header .Container h1 a {
   color: #e4a4b0;
 }
 
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  header .Container h1 {
+    font-size: 40px;
+  }
+}
+
 header .Container .itemfixed {
   position: fixed;
   margin-left: 88%;
@@ -102,6 +108,20 @@ header .Container .itemfixed {
 header .Container .itemfixed a {
   text-decoration: none;
   color: #f2eeae;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  header .Container .itemfixed a {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  header .Container .itemfixed {
+    right: 10px;
+    top: 70%;
+    padding: 0px 10px 5px 10px;
+  }
 }
 
 header .Container .MainMenuContainer div .MainMenu {
@@ -117,10 +137,26 @@ header .Container .MainMenuContainer div .MainMenu {
   list-style: none;
 }
 
-header .Container .MainMenuContainer div a {
+header .Container .MainMenuContainer div .MainMenu a {
   list-style: none;
   text-decoration: none;
   color: #bb95b7;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  header .Container .MainMenuContainer div .MainMenu .MenuItem {
+    margin: 2px;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  header .Container .MainMenuContainer div .MainMenu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 20px;
+  }
 }
 
 .MainSM div .Presentacion {
@@ -175,6 +211,12 @@ header .Container .MainMenuContainer div a {
 .main-index .cuerpo-index .img-home img {
   width: 80%;
   max-width: 900px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  .main-index .cuerpo-index .img-home img {
+    width: 280px;
+  }
 }
 
 .main-index h5 .container .row .col-6 .offset-3 .carouselExampleSlidesOnly .carousel-inner .carousel-item .active {
@@ -250,8 +292,52 @@ header .Container .MainMenuContainer div a {
      object-fit: cover;
 }
 
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  .MainDG .GridContainer .GridImg {
+    width: 90%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  .MainDG .GridContainer .GridImg {
+    width: 90%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
 .MainDG .GridContainer .PDB {
   padding-bottom: 150px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  .MainDG .GridContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  .MainDG .GridContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .FE img {
@@ -264,9 +350,67 @@ header .Container .MainMenuContainer div a {
      object-fit: cover;
 }
 
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  .MainUXUI .GridContainer .GridImg {
+    width: 90%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  .MainUXUI .GridContainer .GridImg {
+    width: 90%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
 .MainUXUI .GridContainer .Large {
   height: 700px;
   padding-bottom: 150px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  .MainUXUI .GridContainer .Large {
+    max-height: 200px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  .MainUXUI .GridContainer .Large {
+    height: 500px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  .MainUXUI .GridContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  .MainUXUI .GridContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 footer {
@@ -287,6 +431,18 @@ footer .MenuFooter ul li a {
   color: #e4a4b0;
 }
 
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  footer .MenuFooter ul li a {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  footer .MenuFooter ul li a {
+    font-size: 20px;
+  }
+}
+
 footer .CV {
   margin-top: 20px;
   padding-left: 10px;
@@ -297,15 +453,71 @@ footer .CV a {
   color: #f2eeae;
 }
 
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  footer .CV a {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  footer .CV a {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  footer .CV {
+    right: 10px;
+    padding: 0px 10px 5px 10px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  footer .CV {
+    right: 10px;
+    padding: 10px 20px 15px 20px;
+    margin-top: 20px;
+  }
+}
+
 footer .logos {
   padding-left: 75%;
   padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  footer .logos {
+    padding-left: 0%;
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  footer .logos {
+    padding-left: 70%;
+  }
 }
 
 footer .logos .IconosLogos {
   width: 50px;
   height: auto;
   padding: 5px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 799px) {
+  footer .logos .IconosLogos {
+    width: 30px;
+    height: auto;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1300px) {
+  footer .logos .IconosLogos {
+    max-width: 50px;
+    height: auto;
+  }
 }
 
 * {
