@@ -1,9 +1,18 @@
-.MainDG {
-    .GridContainer {
+.MainDG { 
+        h5 {
+            @extend %h5;
+            margin-top: 5%;
+        }
+        .GridContainer {
         @extend %gridcontainer;
         .GridImg {
             width: 400px;
             object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px grey;
+            &:hover {
+                transform: scale3d(1.25,1.25,1.25)
+            }
             @media only screen and (min-width: 280px) and (max-width: 799px) {
                 width: 90%;
                 object-fit: cover;
@@ -12,9 +21,6 @@
                 width: 90%;
                 object-fit: cover;
             }
-        }
-        .PDB {
-            padding-bottom: 150px;
         }
         @media only screen and (min-width: 280px) and (max-width: 799px) {
             display: grid;

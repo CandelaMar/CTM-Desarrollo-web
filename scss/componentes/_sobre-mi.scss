@@ -2,17 +2,23 @@
     div {
         .Presentacion { 
             color: $color-sun;
-            background-color: $color-pink;
+            background-color: $color-sunset;
             font-size: 30px;
             padding: 50px;
             display: flex;
             justify-content: center;
+            text-shadow: 2px 2px 2px grey;
         }
         h5 {
             @extend %h5;
         }
         .Texto {
             padding: 50px;
+            font-family: nth($tipografias, 1);
+            font-size: 25px;
+            color: $color-lila;
+            line-height: 1.5;
+            text-shadow: 2px 2px 2px $color-sun;
         }
     }
     .Estudios {
@@ -20,13 +26,14 @@
             @extend %h5;
         }
         div {
-            background-color: $color-pink;
+            background-color: $color-sunset;
             padding: 20px;
             table {
                 width: 100%;
                 border: 2px solid $color-sun;
                 border-spacing: 0;
                 color: $color-sun;
+                box-shadow: 5px 5px 5px grey;
                 tr {
                     td {
                         border: 1px solid $color-sun;

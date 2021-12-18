@@ -20,6 +20,7 @@ header {
         .itemfixed {
             position: fixed;
             margin-left: 88%;
+            font-family: nth($tipografias , 3 );
             a {
                 text-decoration: none;
                 color: $color-sun;
@@ -38,7 +39,7 @@ header {
                 .MainMenu {
                     font-size: 30px;
                     font-family: nth($tipografias, 1);
-                    background-color: $color-sun;
+                    background-image: linear-gradient(to bottom, $color-sun, $color-sunset);
                     padding: 30px;
                     display: flex;
                     justify-content: space-around;

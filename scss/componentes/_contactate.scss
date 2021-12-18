@@ -3,6 +3,7 @@
     .contactate {
         div {
             h5 {
+                @extend %h5;
                 a {
                     color: $color-sun;
                 }
@@ -50,6 +51,7 @@
         margin-bottom: 30px;
         .newsletter {
             margin-bottom: 20px;
+            text-shadow: 0.5px 0.5px 0.5px grey;
         }
         .checkbox {
             margin-left: 10px;
