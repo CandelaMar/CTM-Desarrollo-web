@@ -23,14 +23,14 @@
     }
     h5 {
         @extend %h5;
-        .container {
-            .row {
-                .col-6 .offset-3 {
-                    .carouselExampleSlidesOnly {
-                        .carousel-inner {
-                            .carousel-item .active {
-                                height: 500px;
-                            }
+    }
+    .container {
+        .row {
+            .col-6 .offset-3 {
+                .carouselExampleSlidesOnly {
+                    .carousel-inner {
+                        .carousel-item .active {
+                            height: 500px;
                         }
                     }
                 }

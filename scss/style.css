@@ -183,7 +183,7 @@ header .Container .MainMenuContainer div .MainMenu a {
     width: 280px;
   }
 }
-.main-index h5 .container .row .col-6 .offset-3 .carouselExampleSlidesOnly .carousel-inner .carousel-item .active {
+.main-index .container .row .col-6 .offset-3 .carouselExampleSlidesOnly .carousel-inner .carousel-item .active {
   height: 500px;
 }
 
@@ -288,6 +288,7 @@ header .Container .MainMenuContainer div .MainMenu a {
   width: 100%;
   border-radius: 10px;
   box-shadow: 2px 2px 5px grey;
+  margin-bottom: 20px;
 }
 .FE img:hover {
   transform: scale3d(1.25, 1.25, 1.25);
@@ -323,13 +324,14 @@ header .Container .MainMenuContainer div .MainMenu a {
 @media only screen and (min-width: 280px) and (max-width: 799px) {
   .MainUXUI .GridContainer .Large {
     max-height: 200px;
-    padding-bottom: 20px;
+    object-fit: contain;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 800px) and (max-width: 1300px) {
   .MainUXUI .GridContainer .Large {
     height: 500px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 280px) and (max-width: 799px) {
