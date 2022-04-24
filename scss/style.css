@@ -65,9 +65,9 @@ body .audio {
 }
 
 header {
-  background: url(../../IMAGENES/fondoheader.jpg) no-repeat center;
-  background-size: cover;
-  padding-top: 325px;
+  background: url(../IMAGENES/HOME/banner.jpg) no-repeat center;
+  background-size:cover;
+  padding-top: 700px;
 }
 header .Container h1 {
   color: #e4a4b0;
